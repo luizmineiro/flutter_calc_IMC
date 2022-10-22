@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: const Text('Limpar'),
+        child: const Text('X'),
         onPressed: () {
           setState(() {
             controllerAltura.clear();
